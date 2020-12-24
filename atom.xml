@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurete233.github.io</id>
     <title>Afurete</title>
-    <updated>2020-12-24T02:49:18.716Z</updated>
+    <updated>2020-12-24T02:52:43.584Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurete233.github.io"/>
     <link rel="self" href="https://afurete233.github.io/atom.xml"/>
@@ -19,11 +19,12 @@
         <summary type="html"><![CDATA[<p>直接 用 dnSpy 打开游戏文件下载的assembly_csharp.dll<br>
 需要修改的方法在 Assets.Scripts.PeroTools.Platforms.Steam 下<br>
 然后找到 public void DLCVertify()</p>
-<p>需要做的事情就是编辑方法把外面的 if 那一段连同其大括号去掉就好了。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>直接 用 dnSpy 打开游戏文件下载的assembly_csharp.dll<br>
 需要修改的方法在 Assets.Scripts.PeroTools.Platforms.Steam 下<br>
 然后找到 public void DLCVertify()</p>
+<!-- more -->
+<!-- more -->
 <p>需要做的事情就是编辑方法把外面的 if 那一段连同其大括号去掉就好了。</p>
 <!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://afurete233.github.io/post-images/1608777895482.jpg" alt="" loading="lazy"></figure>
