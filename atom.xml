@@ -2,12 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurete233.github.io</id>
     <title>Afurete</title>
-    <updated>2020-12-24T01:39:36.495Z</updated>
+    <updated>2020-12-24T02:19:34.292Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurete233.github.io"/>
     <link rel="self" href="https://afurete233.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>全即是一，一即是全</subtitle>
     <logo>https://afurete233.github.io/images/avatar.png</logo>
     <icon>https://afurete233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Afurete</rights>
+    <entry>
+        <title type="html"><![CDATA[虚拟机使用OpenWrt搭建单网卡软路由,破解校园网账号限制]]></title>
+        <id>https://afurete233.github.io/post/xu-ni-ji-shi-yong-openwrt-ruan-lu-you-yong/</id>
+        <link href="https://afurete233.github.io/post/xu-ni-ji-shi-yong-openwrt-ruan-lu-you-yong/">
+        </link>
+        <updated>2020-12-23T12:23:19.000Z</updated>
+        <content type="html"><![CDATA[<p>使用已经创建好的虚拟机文件<br>
+虚拟机文件下载链接: https://pan.baidu.com/s/1kWRZtQn 密码: 5qcj<br>
+<img src="https://afurete233.github.io/post-images/1608774376340.png" alt="" loading="lazy"><br>
+因为默认配置已经设置好了的,所以我们设置第一张网卡为桥接模式,第二张网卡设置为NAT模式。<br>
+接下来启动就可以了</p>
+<p>有两个方法登陆软路由界面：</p>
+<p>方法一：<br>
+在另一台电脑上设置ip为192.168.137.0/24 的网段，默认配置好的网关是192.168.137.11<br>
+配置好后直接打开网关地址就可以了</p>
+<p>方法二:<br>
+在配置虚拟机的电脑上使用，NAT分配给虚拟机的地址进行登录</p>
+<figure data-type="image" tabindex="1"><img src="https://afurete233.github.io/post-images/1608774979750.png" alt="" loading="lazy"></figure>
+<p>然后你就可以访问你的软路由了<br>
+默认账号是root 密码是123456</p>
+<figure data-type="image" tabindex="2"><img src="https://afurete233.github.io/post-images/1608775125233.png" alt="" loading="lazy"></figure>
+<p>现在可以看到Lan口是虚拟机的桥接模式，wan口是虚拟机的NAT</p>
+<p>在虚拟机上登录一个校园网账号，然后网络就会通过虚拟机的软路由发给连上软路由的主机</p>
+<p>注意：<br>
+因为用校园网的主机是连接交换机，所以虚拟机上软路由分发的DHCP会导致连接交换机，局域网内的所有主机都会自动连接上虚拟机，导致有些电脑想用校园账号上网会失败，所以这里建议关闭DHCP用静态ip地址给要上网的主机设置ip.</p>
+<figure data-type="image" tabindex="3"><img src="https://afurete233.github.io/post-images/1608776023966.png" alt="" loading="lazy"></figure>
+<p>点击修改，里面关闭DHCP<br>
+在里面也可以修改你想需要的网关，网段。</p>
+<p>扩展：<br>
+如果你有无限路由器，你可以将路由器的DHCP关掉，然后路由器WAN口接入局域网内交换机，然后你就可以在手机上设置IP连上软路由上网。</p>
+<p>如果你有SSR你可以用Netch给虚拟机连上，这样一来所有连上软路由的主机都可以上SSR了</p>
+]]></content>
+    </entry>
 </feed>
