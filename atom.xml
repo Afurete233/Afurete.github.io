@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurete233.github.io</id>
     <title>Afurete</title>
-    <updated>2020-12-25T03:30:21.753Z</updated>
+    <updated>2020-12-25T06:39:02.669Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurete233.github.io"/>
     <link rel="self" href="https://afurete233.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://afurete233.github.io/images/avatar.png</logo>
     <icon>https://afurete233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Afurete</rights>
+    <entry>
+        <title type="html"><![CDATA[三个制作动态壁纸所用到的AE插件]]></title>
+        <id>https://afurete233.github.io/post/san-ge-zhi-zuo-dong-tai-bi-zhi-suo-yong-dao-de-ae-cha-jian/</id>
+        <link href="https://afurete233.github.io/post/san-ge-zhi-zuo-dong-tai-bi-zhi-suo-yong-dao-de-ae-cha-jian/">
+        </link>
+        <updated>2020-12-25T06:18:54.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>AE脚本-风吹自由摇曳摆动MG动画 AutoSway</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://afurete233.github.io/post-images/1608877980645.jpg" alt="" loading="lazy"></figure>
+<ul>
+<li>AE脚本-二维人物角色骨骼绑定MG动画脚本 Duik Bassel.2</li>
+</ul>
+<figure data-type="image" tabindex="2"><img src="https://afurete233.github.io/post-images/1608878076311.jpg" alt="" loading="lazy"></figure>
+<ul>
+<li>Autokroma AfterCodecs(AE特殊编码加速渲染输出工具)</li>
+</ul>
+<p>可以直接导出MP4视频文件👍</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[电脑双IP和同时启动DHCP和静态IP的方法]]></title>
         <id>https://afurete233.github.io/post/dian-nao-shuang-ip-he-tong-shi-qi-dong-dhcp-he-jing-tai-ip-de-fang-fa/</id>
@@ -31,15 +51,10 @@ netsh int ipv4 add address &quot;以太网&quot; 192.168.1.30 255.255.255.0 192.
         <link href="https://afurete233.github.io/post/po-jie-muse-dash-steam-ban-dlc/">
         </link>
         <updated>2020-12-24T02:40:13.000Z</updated>
-        <summary type="html"><![CDATA[<p>直接 用 dnSpy 打开游戏文件下载的assembly_csharp.dll<br>
+        <content type="html"><![CDATA[<!-- more -->
+<p>直接 用 dnSpy 打开游戏文件下载的assembly_csharp.dll<br>
 需要修改的方法在 Assets.Scripts.PeroTools.Platforms.Steam 下<br>
 然后找到 public void DLCVertify()</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>直接 用 dnSpy 打开游戏文件下载的assembly_csharp.dll<br>
-需要修改的方法在 Assets.Scripts.PeroTools.Platforms.Steam 下<br>
-然后找到 public void DLCVertify()</p>
-<!-- more -->
-<!-- more -->
 <p>需要做的事情就是编辑方法把外面的 if 那一段连同其大括号去掉就好了。</p>
 <!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://afurete233.github.io/post-images/1608777895482.jpg" alt="" loading="lazy"></figure>
