@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurete233.github.io</id>
     <title>Afurete</title>
-    <updated>2020-12-24T23:56:21.213Z</updated>
+    <updated>2020-12-25T00:19:03.080Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurete233.github.io"/>
     <link rel="self" href="https://afurete233.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://afurete233.github.io/images/avatar.png</logo>
     <icon>https://afurete233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Afurete</rights>
+    <entry>
+        <title type="html"><![CDATA[电脑双IP和同事启动DHCP和静态IP的方法]]></title>
+        <id>https://afurete233.github.io/post/dian-nao-shuang-ip-he-tong-shi-qi-dong-dhcp-he-jing-tai-ip-de-fang-fa/</id>
+        <link href="https://afurete233.github.io/post/dian-nao-shuang-ip-he-tong-shi-qi-dong-dhcp-he-jing-tai-ip-de-fang-fa/">
+        </link>
+        <updated>2020-12-24T23:57:41.000Z</updated>
+        <content type="html"><![CDATA[<p>使用管理员模式打开cmd</p>
+<p>启动DHCP和静态共存：<br>
+netsh int ipv4 set interface &quot;以太网&quot; dhcpstaticipcoexistence=enabled<br>
+配置IP地址：<br>
+netsh int ipv4 add address &quot;以太网&quot; 192.168.1.30 255.255.255.0 192.168.137.11</p>
+<p>上面以太网为你的网卡名字 ，后面接着就是要设置的IP、子网掩码、网关<br>
+不设置网关可用其它网络上网，但也可以连你所设置的ip的局域网</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[破解Muse Dash Steam 版 DLC]]></title>
         <id>https://afurete233.github.io/post/po-jie-muse-dash-steam-ban-dlc/</id>

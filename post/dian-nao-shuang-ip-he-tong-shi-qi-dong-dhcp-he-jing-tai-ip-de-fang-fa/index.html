@@ -3,7 +3,7 @@
         <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
         <meta charset="utf-8">
         <meta name="referrer" content="never">
-        <title>Afurete</title>
+        <title>电脑双IP和同事启动DHCP和静态IP的方法 | Afurete</title>
         <link rel="stylesheet" href="https://cdn.staticfile.org/KaTeX/0.11.1/katex.min.css">
         <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://afurete233.github.io/styles/main.css">
@@ -25,9 +25,9 @@
 
     </head>
     <body class="mdui-theme-primary-purple mdui-theme-accent-purple">
-        <header class="header mdui-m-b-3">
-                          <button class="mdui-btn daohang mdui-btn-icon mdui-btn-dense mdui-color-theme-500 mdui-ripple yinying mdui-m-t-1 mdui-m-l-1" mdui-menu="{target: '#demo-attr-cascade'}"><i class="mdui-icon material-icons">&#xe5d2;</i></button>
-                <ul class="mdui-menu " id="demo-attr-cascade">
+        <header class="index-img mdui-m-b-3"  style="background-image: url(https://afurete233.github.io/post-images/dian-nao-shuang-ip-he-tong-shi-qi-dong-dhcp-he-jing-tai-ip-de-fang-fa.jpg);" >
+                          <button class="mdui-btn  mdui-btn-icon mdui-btn-dense mdui-color-theme-500 mdui-ripple yinying mdui-m-t-1 mdui-m-l-1" mdui-menu="{target: '#demo-attr-cascade'}"><i class="mdui-icon material-icons">&#xe5d2;</i></button>
+                <ul class="mdui-menu" id="demo-attr-cascade">
                 
                         <li class="mdui-menu-item">
                           <a href="/" class="mdui-ripple">首页</a>
@@ -46,49 +46,81 @@
                         </li>
                 
                       </ul>
-                      <div class="mdui-text-center">
-                      <div class="mdui-typo-display-4 mdui-m-b-3 index-title">Afurete</div>
-                      <div class="mdui-typo-headline">全即是一，一即是全</div>
-                      </div>
 
         </header>
-        <div class="mdui-container">
+        <div class="mdui-container post">
                 <div class="mdui-row">
-                        <div class="mdui-col-md-6 mdui-col-offset-md-3 ">
-                                                     
-                            <article class="mdui-m-t-4 index-list mdui-shadow-15 mdui-hoverable mdui-p-a-2 q">
-                                    <div class="mdui-row">
-                                            <div class="mdui-col-xs-12 ">
-                                              <div class="mdui-row mdui-m-b-2">
-                                                <div class="mdui-col-xs-12 mdui-col-sm-8">
-                                                    <div class="mdui-typo-headline mdui-m-b-2"><a href="https://afurete233.github.io/post/po-jie-muse-dash-steam-ban-dlc/" class="index-list-title">破解Muse Dash Steam 版 DLC</a></div>
-                                                    <div class="mdui-typo-body-2 index-list-neirong"><p>直接 用 dnSpy 打开游戏文件下载的assembly_csharp.dll<br>
-需要修改的方法在 Assets.Scripts.PeroTools.Platforms.Steam 下<br>
-然后找到 public void DLCVertify()</p>
+                        <div class="mdui-col-md-8 mdui-col-offset-md-2 ">
+                         <article class="mdui-shadow-10 mdui-p-a-2 post-list">
+                           <div class="mdui-typo-display-1 mdui-m-b-3">电脑双IP和同事启动DHCP和静态IP的方法</div>
+                           <a  class="index-list-biaoqian ">2020-12-25</a>
+                           <div class="mdui-typo mdui-m-t-3 post-neirong"><p>使用管理员模式打开cmd</p>
+<p>启动DHCP和静态共存：<br>
+netsh int ipv4 set interface &quot;以太网&quot; dhcpstaticipcoexistence=enabled<br>
+配置IP地址：<br>
+netsh int ipv4 add address &quot;以太网&quot; 192.168.1.30 255.255.255.0 192.168.137.11</p>
+<p>上面以太网为你的网卡名字 ，后面接着就是要设置的IP、子网掩码、网关<br>
+不设置网关可用其它网络上网，但也可以连你所设置的ip的局域网</p>
 </div>
-                                                </div>
-                                                <div class="mdui-col-xs-12 mdui-col-sm-4 "><div class="index-list-img mdui-shadow-8" style="background-image:url(https://afurete233.github.io/post-images/po-jie-muse-dash-steam-ban-dlc.png)"></div></div>
-                                              </div>
-                                              
-                                              <a href="https://afurete233.github.io/tag/X0KZmVR2H/" class="index-list-biaoqian mdui-float-left yinying">破解</a>
-                                               
-                                              <a href="https://afurete233.github.io/post/po-jie-muse-dash-steam-ban-dlc/" class="index-list-biaoqian mdui-float-right yinying">2020-12-24</a>
-                                              
+                              <div class="mdui-divider mdui-m-t-3"></div>
+                              <div class="mdui-row-xs-2 mdui-m-t-2">
+  <div class="mdui-col"> </div>
+ <div class="mdui-col"><div class="mdui-text-right "><a href="https://afurete233.github.io/post/po-jie-muse-dash-steam-ban-dlc/">破解Muse Dash Steam 版 DLC</a></div> </div>
+                                </div>
+                                <div class="mdui-divider mdui-m-t-2"></div>
+   
+ <script src="https://afurete233.github.io/media/scripts/Valine.min.js"></script>
+ <div class="comment"></div>
 
-                                            </div>
-                                          </div>
+<script>
+      new Valine({
+            el: '.comment',
 
-                            </article>
+            app_id: 'HvXXSUtXLwSgL6KzmC3LuRDB-MdYXbMMI',
 
-                                                   <nav class="mdui-m-y-3">
-                         
-                         
-                         </nav>
+
+            app_key: 'keuSj7RF0JyLC4DiEYXMyVQm',
+
+
+            path: window.location.pathname,
+            pageSize: 30,
+            avatar:'mm', 
+       })
+
+    </script> 
+<script>
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+           if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+              clearInterval(checkExist);
+           }
+        }, 100);
+    }
+</script>
+                         </article>
+                 <div class="toc-container mdui-float-right">
+                
+              </div>
 
                         </div>
                  </div>
           
         </div>
+        <script data-no-instant>
+    (function ($) {
+        $.extend({
+            adamsOverload: function () {
+                $.viewImage({
+                    'target'  : '.post-neirong img',
+                    'exclude' : '.vsmile-icons img , .song-links-item img',
+                    'delay'   : 300
+                });
+            }
+        });
+    })(jQuery);
+    jQuery.adamsOverload();
+</script>
         <footer class="footer mdui-m-t-5 mdui-text-center">
                <nav class="social-links">
                       <ul>
