@@ -3188,3 +3188,7 @@ ul {
     .index-list-img{background-image: url(https://afurete233.github.io/img/IMG/85779247_p0.png);}
     .archives-img{ background-image: url(https://afurete233.github.io/img/IMG/85779247_p0.png);}
     
+      .v {
+        display: none;
+      }
+    
