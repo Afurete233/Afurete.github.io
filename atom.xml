@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurete233.github.io</id>
     <title>Afurete</title>
-    <updated>2020-12-29T06:33:14.000Z</updated>
+    <updated>2020-12-29T12:04:07.933Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurete233.github.io"/>
     <link rel="self" href="https://afurete233.github.io/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://afurete233.github.io/images/avatar.png</logo>
     <icon>https://afurete233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Afurete</rights>
+    <entry>
+        <title type="html"><![CDATA[突击莉莉 BOUQUET 动态壁纸 系列]]></title>
+        <id>https://afurete233.github.io/post/tu-ji-li-li-bouquet-dong-tai-bi-zhi-xi-lie/</id>
+        <link href="https://afurete233.github.io/post/tu-ji-li-li-bouquet-dong-tai-bi-zhi-xi-lie/">
+        </link>
+        <updated>2020-12-29T11:37:05.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<ul>
+<li>【动态壁纸】突击莉莉 BOUQUET | 枫女士 60fps</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://afurete233.github.io/post-images/1609242431221.png" alt="" loading="lazy"></figure>
+<iframe  src="//player.bilibili.com/player.html?aid=543318308&bvid=BV1Vi4y1w7gT&cid=272345330&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%" > </iframe>
+<ul>
+<li></li>
+</ul>
+<!-- more -->
+<ul>
+<li>【动态壁纸】突击莉莉 BOUQUET | 结梨 60fps</li>
+</ul>
+<figure data-type="image" tabindex="2"><img src="https://afurete233.github.io/post-images/1609242443183.png" alt="" loading="lazy"></figure>
+<iframe src="//player.bilibili.com/player.html?aid=755721610&bvid=BV1Pr4y1F7hH&cid=266331279&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%"> </iframe>
+<ul>
+<li></li>
+</ul>
+<!-- more -->
+<ul>
+<li>【动态壁纸】突击莉莉 BOUQUET | 梦结-波子汽水 60fps</li>
+</ul>
+<figure data-type="image" tabindex="3"><img src="https://afurete233.github.io/post-images/1609242487876.jpg" alt="" loading="lazy"></figure>
+<iframe src="//player.bilibili.com/player.html?aid=245604470&bvid=BV1Sv411b7Ja&cid=264489576&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%"> </iframe>
+<ul>
+<li></li>
+</ul>
+<!-- more -->
+<ul>
+<li>【动态壁纸】突击莉莉 BOUQUET | 梦结 60fps</li>
+</ul>
+<figure data-type="image" tabindex="4"><img src="https://afurete233.github.io/post-images/1609242509335.jpg" alt="" loading="lazy"></figure>
+<iframe src="//player.bilibili.com/player.html?aid=415506566&bvid=BV1CV41187DA&cid=264290090&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%"> </iframe>
+<ul>
+<li></li>
+</ul>
+<!-- more -->
+<ul>
+<li>【动态壁纸】突击莉莉 BOUQUET | 梨璃 60fps</li>
+</ul>
+<figure data-type="image" tabindex="5"><img src="https://afurete233.github.io/post-images/1609242539354.jpg" alt="" loading="lazy"></figure>
+<iframe src="//player.bilibili.com/player.html?aid=842931515&bvid=BV1j54y167rZ&cid=259475480&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%"> </iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三个制作动态壁纸所用到的AE插件]]></title>
         <id>https://afurete233.github.io/post/san-ge-zhi-zuo-dong-tai-bi-zhi-suo-yong-dao-de-ae-cha-jian/</id>
