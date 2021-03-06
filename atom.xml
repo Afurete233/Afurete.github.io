@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurete233.github.io</id>
     <title>Afurete</title>
-    <updated>2021-02-21T02:18:37.936Z</updated>
+    <updated>2021-03-06T07:17:15.102Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurete233.github.io"/>
     <link rel="self" href="https://afurete233.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://afurete233.github.io/images/avatar.png</logo>
     <icon>https://afurete233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Afurete</rights>
+    <entry>
+        <title type="html"><![CDATA[AE脚本 Motion2 MG动画脚本]]></title>
+        <id>https://afurete233.github.io/post/ae-jiao-ben-motion2-mg-dong-hua-jiao-ben/</id>
+        <link href="https://afurete233.github.io/post/ae-jiao-ben-motion2-mg-dong-hua-jiao-ben/">
+        </link>
+        <updated>2021-03-06T07:11:01.000Z</updated>
+        <summary type="html"><![CDATA[<p>Motion2是由MT.MOGRAPH设计的一套脚本工具，其丰富的功能节省了大家不少时间。尤其是做MG动画的朋友绝对要拥有这个脚本，可以运用得更加得心应手。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Motion2是由MT.MOGRAPH设计的一套脚本工具，其丰富的功能节省了大家不少时间。尤其是做MG动画的朋友绝对要拥有这个脚本，可以运用得更加得心应手。</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://afurete233.github.io/post-images/1615014846959.webp" alt="" loading="lazy"></figure>
+<ul>
+<li>详细说明链接：https://www.bilibili.com/read/cv4056280/</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[突击莉莉 BOUQUET 动态壁纸 系列]]></title>
         <id>https://afurete233.github.io/post/tu-ji-li-li-bouquet-dong-tai-bi-zhi-xi-lie/</id>
