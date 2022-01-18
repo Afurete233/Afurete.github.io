@@ -1,0 +1,197 @@
+<html>
+      <head>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
+        <meta charset="utf-8">
+        <meta name="referrer" content="never">
+        <title>电脑双IP和同时启动DHCP和静态IP的方法 | Afurete</title>
+        <link rel="stylesheet" href="https://cdn.staticfile.org/KaTeX/0.11.1/katex.min.css">
+        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://afurete233.github.io/styles/main.css">
+          <script src="https://afurete233.github.io/media/scripts/mdui.min.js"></script>
+        <link rel="stylesheet" href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ma+Shan+Zheng&display=swap" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+        <script src="https://afurete233.github.io/media/scripts/script.js"></script>
+        <script >hljs.initHighlightingOnLoad();</script>
+        
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0M5H1YZLF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H0M5H1YZLF');
+</script>
+
+    </head>
+    <body class="mdui-theme-primary-purple mdui-theme-accent-purple">
+        <header class="index-img mdui-m-b-3"  style="background-image: url(https://afurete233.github.io/post-images/dian-nao-shuang-ip-he-tong-shi-qi-dong-dhcp-he-jing-tai-ip-de-fang-fa.jpg);" >
+                          <button class="mdui-btn  mdui-btn-icon mdui-btn-dense mdui-color-theme-500 mdui-ripple yinying mdui-m-t-1 mdui-m-l-1" mdui-menu="{target: '#demo-attr-cascade'}"><i class="mdui-icon material-icons">&#xe5d2;</i></button>
+                <ul class="mdui-menu" id="demo-attr-cascade">
+                
+                        <li class="mdui-menu-item">
+                          <a href="/" class="mdui-ripple">首页</a>
+                        </li>
+                
+                        <li class="mdui-menu-item">
+                          <a href="https://afurete233.github.io/Afurete-Gallery/" class="mdui-ripple">图库</a>
+                        </li>
+                
+                        <li class="mdui-menu-item">
+                          <a href="/archives" class="mdui-ripple">归档</a>
+                        </li>
+                
+                        <li class="mdui-menu-item">
+                          <a href="/tags" class="mdui-ripple">标签</a>
+                        </li>
+                
+                        <li class="mdui-menu-item">
+                          <a href="/post/about" class="mdui-ripple">关于</a>
+                        </li>
+                
+                      </ul>
+
+        </header>
+        <div class="mdui-container post">
+                <div class="mdui-row">
+                        <div class="mdui-col-md-8 mdui-col-offset-md-2 ">
+                         <article class="mdui-shadow-10 mdui-p-a-2 post-list">
+                           <div class="mdui-typo-display-1 mdui-m-b-3">电脑双IP和同时启动DHCP和静态IP的方法</div>
+                           <a  class="index-list-biaoqian ">2020-12-25</a>
+                           <div class="mdui-typo mdui-m-t-3 post-neirong"><p>使用管理员模式打开cmd</p>
+<p>启动DHCP和静态共存：<br>
+netsh int ipv4 set interface &quot;以太网&quot; dhcpstaticipcoexistence=enabled<br>
+配置IP地址：<br>
+netsh int ipv4 add address &quot;以太网&quot; 192.168.1.30 255.255.255.0 192.168.137.11</p>
+<p>上面以太网为你的网卡名字 ，后面接着就是要设置的IP、子网掩码、网关<br>
+不设置网关可用其它网络上网，但也可以连你所设置的ip的局域网</p>
+</div>
+                              <div class="mdui-divider mdui-m-t-3"></div>
+                              <div class="mdui-row-xs-2 mdui-m-t-2">
+  <div class="mdui-col"> <div class="mdui-text-left"><a href="https://afurete233.github.io/post/san-ge-zhi-zuo-dong-tai-bi-zhi-suo-yong-dao-de-ae-cha-jian/">三个制作动态壁纸所用到的AE插件</a></div></div>
+ <div class="mdui-col"><div class="mdui-text-right "><a href="https://afurete233.github.io/post/po-jie-muse-dash-steam-ban-dlc/">破解Muse Dash Steam 版 DLC</a></div> </div>
+                                </div>
+                                <div class="mdui-divider mdui-m-t-2"></div>
+   
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '6a1477128ec99fea4f62',
+    clientSecret: '233128cf251c43026a32b114ec24c232c1c0986a',
+    repo: 'afurete233.github.io',
+    owner: 'afurete233',
+    admin: ['afurete233'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+ <script src="https://afurete233.github.io/media/scripts/Valine.min.js"></script>
+ <div class="comment"></div>
+
+<script>
+      new Valine({
+            el: '.comment',
+
+            app_id: 'HvXXSUtXLwSgL6KzmC3LuRDB-MdYXbMMI',
+
+
+            app_key: 'keuSj7RF0JyLC4DiEYXMyVQm',
+
+
+            placeholder: '快点来评论吧',
+            
+            path: window.location.pathname,
+            pageSize: 30,
+            avatar:'mm', 
+       })
+
+    </script> 
+<script>
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+           if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+              clearInterval(checkExist);
+           }
+        }, 100);
+    }
+</script>
+                         </article>
+                 <div class="toc-container mdui-float-right">
+                
+              </div>
+
+                        </div>
+                 </div>
+          
+        </div>
+        <script data-no-instant>
+    (function ($) {
+        $.extend({
+            adamsOverload: function () {
+                $.viewImage({
+                    'target'  : '.post-neirong img',
+                    'exclude' : '.vsmile-icons img , .song-links-item img',
+                    'delay'   : 300
+                });
+            }
+        });
+    })(jQuery);
+    jQuery.adamsOverload();
+</script>
+        <footer class="footer mdui-m-t-5 mdui-text-center">
+               <nav class="social-links">
+                      <ul>
+                      
+                            
+                           
+                            
+                           
+                            	
+                        <li class="social-link"><a href="https://github.com/Afurete233" target="_blank"><i class="iconfont icon-github"></i></a></li>
+                         
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            	
+                        <li class="social-link"><a href="http://waifu2x.udp.jp/" target="_blank"><i class="iconfont icon-instagram"></i></a></li>
+                         
+                           
+                            
+                           
+                            
+                           
+                            	
+                        <li class="social-link"><a href="https://space.bilibili.com/12129428" target="_blank"><i class="iconfont icon-youtube"></i></a></li>
+                         
+                           
+                      </ul>
+                    </nav>
+                  <div class="copyright">
+                      <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+                  </div>
+              </footer>
+    </body>
+</html>
