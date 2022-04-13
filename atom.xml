@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://afurete233.github.io</id>
     <title>Afurete</title>
-    <updated>2022-04-13T09:19:03.313Z</updated>
+    <updated>2022-04-13T09:31:03.626Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://afurete233.github.io"/>
     <link rel="self" href="https://afurete233.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://afurete233.github.io/images/avatar.png</logo>
     <icon>https://afurete233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Afurete</rights>
+    <entry>
+        <title type="html"><![CDATA[Ayaka TeaRoom 白鹭茶室]]></title>
+        <id>https://afurete233.github.io/post/ayaka-tearoom-bai-lu-cha-shi/</id>
+        <link href="https://afurete233.github.io/post/ayaka-tearoom-bai-lu-cha-shi/">
+        </link>
+        <updated>2022-04-13T09:19:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>一个基于Vue来写的追番工具。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一个基于Vue来写的追番工具。</p>
+<!-- more -->
+<p>https://afurete233.github.io/Ayaka_TeaRoom/<br>
+<img src="https://afurete233.github.io/post-images/1649842226465.jpg" alt="" loading="lazy"></p>
+<p>操作说明：<br>
+滑动卡片可以进行操作</p>
+<p>左：准备看<br>
+右：喜欢<br>
+上：没看完<br>
+下：已看完<br>
+右上：正在看<br>
+右下：不想看<br>
+左下：黑名单</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SteamPriceCalculation]]></title>
         <id>https://afurete233.github.io/post/steampricecalculation/</id>
